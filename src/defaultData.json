@@ -1,0 +1,143 @@
+{
+    "leftColumn":{
+            "authority":{
+            "type":"Broker",
+            "status":"Property",
+            "age":5
+        },
+        "booking":{
+            "previouslyBooked":true,
+            "timeAgo":"2012-04-23T18:25:43.511Z",
+            "rated":null
+
+        },
+        "images":[],
+        "specialtyTags":[
+            {
+                "tagName":"Dry Van",
+                "tagColor":"#D0D0D0"
+            },
+            {
+                "tagName":"Reefer",
+                "tagColor":"#F8F8F8"
+            }
+        ],
+        "details":{
+            "operatingHours":{
+                "timePeriod":{
+                    "from":"2012-04-23T18:25:43.511Z",
+                    "to":"2012-04-23T18:25:43.511Z"
+                },
+                "status":true
+            },
+            "phone":{
+                "name":null,
+                "callDetails":{
+                    "countryCode":1,
+                    "areaCode":408,
+                    "number":2890983,
+                    "extension": 4
+                }
+            },
+            "address":{
+                "addressLines":["Unit C"],
+                "country":"United States"
+            },
+            "links":[]
+        },
+        "contacts":[
+            {
+                "type":"After Hours",
+                "phone":{
+                    "name":"Alice Jones",
+                    "callDetails":{
+                        "countryCode":1,
+                        "areaCode": 408,
+                        "number":2890983,
+                        "extension": 4
+                    }
+                }
+            },
+            {
+                "type":"Claims",
+                "phone":{
+                    "name":"Alice Jones",
+                    "callDetails":{
+                        "countryCode":1,
+                        "areaCode": 408,
+                        "number":2890983,
+                        "extension": 4
+                    }
+                }
+            }
+        ]
+    },
+    "rightColumn":{
+        "recommendations":{
+            "recommended":false,
+            "reason":"Carrier doesnt have valid status"
+        },
+        "onboarding":[{
+            "pass":false,
+            "reason":"Not setup with company"
+        }],
+        "assessment":[
+            {
+                "pass":false,
+                "reason":"Inactive status"
+            },
+            {
+                "pass":true,
+                "reason":"Active authority"
+            }
+        ],
+        "equipment":[
+            {
+            "value":429,
+            "type":"Power Units"
+            },
+            {
+                "value":305,
+                "type":"Trailers"
+            }
+        ],
+        "inspections":{
+            "pastYear":5,
+            "total":100
+        },
+        "violations":{
+            "pastYear":5,
+            "total":100
+        },
+        "crashes":{
+            "pastYear":5,
+            "total":100
+        },
+        "insuranceFiling":{
+            "insurer":"Truck Company",
+            "status":{
+                "tagName":"Active",
+                "tagColor":"#D0D0D0"
+            },
+            "policyNumber":"12323A",
+            "coverage":100000,
+            "effectiveDate":"2012-04-23T18:25:43.511Z",
+            "cancellationDate":"2012-04-23T18:25:43.511Z"
+        },
+        "associations":[
+            {
+                "image":null,
+                "name":"Alex",
+                "role":"Carrier Sales",
+                "link":"/user/alex"
+            },
+            {
+                "image":null,
+                "name":"Alex",
+                "role":"Carrier Sales",
+                "link":"/user/alex"
+            }
+        ]
+    }
+    
+}
