@@ -48,7 +48,7 @@
     - **AssociationGroup**: Takes in associates array to group if present 
 
 
-## Component Hierarchy
+## Component Hierarchy ( Parent-Child flow from left to right )
 
 This hierarchy assumes a certain set of data to pass as props for clarity.
 
