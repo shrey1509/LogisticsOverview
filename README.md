@@ -50,7 +50,9 @@
 
 ## Component Hierarchy
 
-![Heirarchy](Heirarchy.png)
+This hierarchy assumes a certain set of data to pass as props for clarity.
+
+![Heirarchy](ComponentHeirarchy.png)
 
 ## Props
 
